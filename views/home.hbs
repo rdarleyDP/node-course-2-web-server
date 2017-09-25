@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Some Website</title>
+</head>
+
+<body>
+    {{> header}}
+    
+    {{#each statements}}
+    <p>
+        {{statement}}
+    </p>
+    {{/each}}
+
+    {{> footer}}
+</body>
+
+</html>
